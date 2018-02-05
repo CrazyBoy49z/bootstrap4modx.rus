@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 05 2018 г., 09:55
+-- Время создания: Фев 05 2018 г., 14:41
 -- Версия сервера: 5.6.34
 -- Версия PHP: 5.6.29
 
@@ -2676,7 +2676,205 @@ INSERT INTO `modx_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, 
 (1223, 1, '2018-02-05 09:22:01', 'propertyset_update_from_element', 'modChunk', '36'),
 (1224, 1, '2018-02-05 09:32:07', 'chunk_update', 'modChunk', '36'),
 (1225, 1, '2018-02-05 09:32:07', 'propertyset_update_from_element', 'modChunk', '36'),
-(1226, 1, '2018-02-05 09:36:52', 'chunk_update', 'modChunk', '36');
+(1226, 1, '2018-02-05 09:36:52', 'chunk_update', 'modChunk', '36'),
+(1227, 1, '2018-02-05 11:57:56', 'login', 'modContext', 'mgr'),
+(1228, 1, '2018-02-05 12:00:08', 'template_update', 'modTemplate', '1'),
+(1229, 1, '2018-02-05 12:00:08', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1230, 1, '2018-02-05 12:14:52', 'template_update', 'modTemplate', '1'),
+(1231, 1, '2018-02-05 12:14:53', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1232, 1, '2018-02-05 12:15:11', 'chunk_create', 'modChunk', '72'),
+(1233, 1, '2018-02-05 12:15:45', 'chunk_update', 'modChunk', '72'),
+(1234, 1, '2018-02-05 12:15:46', 'propertyset_update_from_element', 'modChunk', '72'),
+(1235, 1, '2018-02-05 12:17:40', 'chunk_update', 'modChunk', '72'),
+(1236, 1, '2018-02-05 12:20:51', 'chunk_update', 'modChunk', '72'),
+(1237, 1, '2018-02-05 12:20:51', 'propertyset_update_from_element', 'modChunk', '72'),
+(1238, 1, '2018-02-05 12:22:09', 'chunk_update', 'modChunk', '72'),
+(1239, 1, '2018-02-05 12:22:09', 'propertyset_update_from_element', 'modChunk', '72'),
+(1240, 1, '2018-02-05 12:23:53', 'chunk_update', 'modChunk', '72'),
+(1241, 1, '2018-02-05 12:23:53', 'propertyset_update_from_element', 'modChunk', '72'),
+(1242, 1, '2018-02-05 12:24:42', 'chunk_update', 'modChunk', '72'),
+(1243, 1, '2018-02-05 12:24:42', 'propertyset_update_from_element', 'modChunk', '72'),
+(1244, 1, '2018-02-05 12:25:51', 'chunk_update', 'modChunk', '72'),
+(1245, 1, '2018-02-05 12:25:51', 'propertyset_update_from_element', 'modChunk', '72'),
+(1246, 1, '2018-02-05 12:28:26', 'chunk_update', 'modChunk', '72'),
+(1247, 1, '2018-02-05 12:28:26', 'propertyset_update_from_element', 'modChunk', '72'),
+(1248, 1, '2018-02-05 12:29:08', 'chunk_update', 'modChunk', '72'),
+(1249, 1, '2018-02-05 12:29:09', 'propertyset_update_from_element', 'modChunk', '72'),
+(1250, 1, '2018-02-05 12:29:40', 'chunk_update', 'modChunk', '72'),
+(1251, 1, '2018-02-05 12:29:40', 'propertyset_update_from_element', 'modChunk', '72'),
+(1252, 1, '2018-02-05 12:30:03', 'chunk_update', 'modChunk', '72'),
+(1253, 1, '2018-02-05 12:30:03', 'propertyset_update_from_element', 'modChunk', '72'),
+(1254, 1, '2018-02-05 12:30:11', 'chunk_update', 'modChunk', '72'),
+(1255, 1, '2018-02-05 12:30:11', 'propertyset_update_from_element', 'modChunk', '72'),
+(1256, 1, '2018-02-05 12:30:37', 'chunk_update', 'modChunk', '72'),
+(1257, 1, '2018-02-05 12:30:38', 'propertyset_update_from_element', 'modChunk', '72'),
+(1258, 1, '2018-02-05 12:31:37', 'chunk_update', 'modChunk', '72'),
+(1259, 1, '2018-02-05 12:31:37', 'propertyset_update_from_element', 'modChunk', '72'),
+(1260, 1, '2018-02-05 12:33:11', 'chunk_update', 'modChunk', '72'),
+(1261, 1, '2018-02-05 12:33:11', 'propertyset_update_from_element', 'modChunk', '72'),
+(1262, 1, '2018-02-05 12:33:31', 'chunk_update', 'modChunk', '72'),
+(1263, 1, '2018-02-05 12:33:31', 'propertyset_update_from_element', 'modChunk', '72'),
+(1264, 1, '2018-02-05 12:34:15', 'chunk_update', 'modChunk', '72'),
+(1265, 1, '2018-02-05 12:34:15', 'propertyset_update_from_element', 'modChunk', '72'),
+(1266, 1, '2018-02-05 12:34:34', 'chunk_update', 'modChunk', '72'),
+(1267, 1, '2018-02-05 12:34:34', 'propertyset_update_from_element', 'modChunk', '72'),
+(1268, 1, '2018-02-05 12:35:17', 'chunk_update', 'modChunk', '72'),
+(1269, 1, '2018-02-05 12:35:17', 'propertyset_update_from_element', 'modChunk', '72'),
+(1270, 1, '2018-02-05 12:35:51', 'chunk_update', 'modChunk', '72'),
+(1271, 1, '2018-02-05 12:35:51', 'propertyset_update_from_element', 'modChunk', '72'),
+(1272, 1, '2018-02-05 12:38:57', 'chunk_update', 'modChunk', '72'),
+(1273, 1, '2018-02-05 12:38:58', 'propertyset_update_from_element', 'modChunk', '72'),
+(1274, 1, '2018-02-05 12:39:20', 'chunk_update', 'modChunk', '72'),
+(1275, 1, '2018-02-05 12:39:20', 'propertyset_update_from_element', 'modChunk', '72'),
+(1276, 1, '2018-02-05 12:42:31', 'resource_update', 'modResource', '1'),
+(1277, 1, '2018-02-05 12:42:56', 'resource_create', 'modDocument', '15'),
+(1278, 1, '2018-02-05 12:50:00', 'chunk_update', 'modChunk', '72'),
+(1279, 1, '2018-02-05 12:50:00', 'propertyset_update_from_element', 'modChunk', '72'),
+(1280, 1, '2018-02-05 12:50:07', 'chunk_update', 'modChunk', '72'),
+(1281, 1, '2018-02-05 12:50:07', 'propertyset_update_from_element', 'modChunk', '72'),
+(1282, 1, '2018-02-05 12:51:31', 'chunk_update', 'modChunk', '72'),
+(1283, 1, '2018-02-05 12:51:31', 'propertyset_update_from_element', 'modChunk', '72'),
+(1284, 1, '2018-02-05 12:52:55', 'chunk_update', 'modChunk', '72'),
+(1285, 1, '2018-02-05 12:52:55', 'propertyset_update_from_element', 'modChunk', '72'),
+(1286, 1, '2018-02-05 12:55:36', 'chunk_update', 'modChunk', '72'),
+(1287, 1, '2018-02-05 12:55:36', 'propertyset_update_from_element', 'modChunk', '72'),
+(1288, 1, '2018-02-05 12:56:21', 'chunk_update', 'modChunk', '72'),
+(1289, 1, '2018-02-05 12:56:21', 'propertyset_update_from_element', 'modChunk', '72'),
+(1290, 1, '2018-02-05 12:57:03', 'chunk_update', 'modChunk', '72'),
+(1291, 1, '2018-02-05 12:57:03', 'propertyset_update_from_element', 'modChunk', '72'),
+(1292, 1, '2018-02-05 12:58:11', 'chunk_update', 'modChunk', '72'),
+(1293, 1, '2018-02-05 12:58:12', 'propertyset_update_from_element', 'modChunk', '72'),
+(1294, 1, '2018-02-05 12:58:56', 'chunk_update', 'modChunk', '72'),
+(1295, 1, '2018-02-05 12:58:57', 'propertyset_update_from_element', 'modChunk', '72'),
+(1296, 1, '2018-02-05 12:59:08', 'chunk_update', 'modChunk', '72'),
+(1297, 1, '2018-02-05 12:59:08', 'propertyset_update_from_element', 'modChunk', '72'),
+(1298, 1, '2018-02-05 12:59:29', 'chunk_update', 'modChunk', '72'),
+(1299, 1, '2018-02-05 12:59:29', 'propertyset_update_from_element', 'modChunk', '72'),
+(1300, 1, '2018-02-05 12:59:50', 'chunk_update', 'modChunk', '72'),
+(1301, 1, '2018-02-05 12:59:50', 'propertyset_update_from_element', 'modChunk', '72'),
+(1302, 1, '2018-02-05 13:00:10', 'chunk_update', 'modChunk', '72'),
+(1303, 1, '2018-02-05 13:00:10', 'propertyset_update_from_element', 'modChunk', '72'),
+(1304, 1, '2018-02-05 13:00:55', 'chunk_update', 'modChunk', '72'),
+(1305, 1, '2018-02-05 13:00:55', 'propertyset_update_from_element', 'modChunk', '72'),
+(1306, 1, '2018-02-05 13:01:48', 'chunk_update', 'modChunk', '72'),
+(1307, 1, '2018-02-05 13:01:49', 'propertyset_update_from_element', 'modChunk', '72'),
+(1308, 1, '2018-02-05 13:02:22', 'chunk_update', 'modChunk', '72'),
+(1309, 1, '2018-02-05 13:02:22', 'propertyset_update_from_element', 'modChunk', '72'),
+(1310, 1, '2018-02-05 13:02:43', 'chunk_update', 'modChunk', '72'),
+(1311, 1, '2018-02-05 13:02:44', 'propertyset_update_from_element', 'modChunk', '72'),
+(1312, 1, '2018-02-05 13:03:02', 'chunk_update', 'modChunk', '72'),
+(1313, 1, '2018-02-05 13:03:02', 'propertyset_update_from_element', 'modChunk', '72'),
+(1314, 1, '2018-02-05 13:05:13', 'chunk_update', 'modChunk', '72'),
+(1315, 1, '2018-02-05 13:05:13', 'propertyset_update_from_element', 'modChunk', '72'),
+(1316, 1, '2018-02-05 13:07:54', 'chunk_update', 'modChunk', '72'),
+(1317, 1, '2018-02-05 13:07:55', 'propertyset_update_from_element', 'modChunk', '72'),
+(1318, 1, '2018-02-05 13:08:05', 'chunk_update', 'modChunk', '72'),
+(1319, 1, '2018-02-05 13:08:05', 'propertyset_update_from_element', 'modChunk', '72'),
+(1320, 1, '2018-02-05 13:11:22', 'chunk_update', 'modChunk', '72'),
+(1321, 1, '2018-02-05 13:11:23', 'propertyset_update_from_element', 'modChunk', '72'),
+(1322, 1, '2018-02-05 13:11:39', 'template_update', 'modTemplate', '1'),
+(1323, 1, '2018-02-05 13:11:39', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1324, 1, '2018-02-05 13:12:32', 'template_update', 'modTemplate', '1'),
+(1325, 1, '2018-02-05 13:12:33', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1326, 1, '2018-02-05 13:12:44', 'chunk_update', 'modChunk', '46'),
+(1327, 1, '2018-02-05 13:12:44', 'propertyset_update_from_element', 'modChunk', '46'),
+(1328, 1, '2018-02-05 13:14:02', 'template_update', 'modTemplate', '1'),
+(1329, 1, '2018-02-05 13:14:03', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1330, 1, '2018-02-05 13:16:07', 'template_update', 'modTemplate', '1'),
+(1331, 1, '2018-02-05 13:16:07', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1332, 1, '2018-02-05 13:16:46', 'template_update', 'modTemplate', '1'),
+(1333, 1, '2018-02-05 13:16:46', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1334, 1, '2018-02-05 13:17:16', 'template_update', 'modTemplate', '1'),
+(1335, 1, '2018-02-05 13:17:16', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1336, 1, '2018-02-05 13:18:03', 'template_update', 'modTemplate', '1'),
+(1337, 1, '2018-02-05 13:18:03', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1338, 1, '2018-02-05 13:19:37', 'template_update', 'modTemplate', '1'),
+(1339, 1, '2018-02-05 13:19:38', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1340, 1, '2018-02-05 13:20:54', 'template_update', 'modTemplate', '1'),
+(1341, 1, '2018-02-05 13:20:54', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1342, 1, '2018-02-05 13:21:35', 'template_update', 'modTemplate', '1'),
+(1343, 1, '2018-02-05 13:21:35', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1344, 1, '2018-02-05 13:22:00', 'template_update', 'modTemplate', '1'),
+(1345, 1, '2018-02-05 13:22:00', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1346, 1, '2018-02-05 13:22:32', 'template_update', 'modTemplate', '1'),
+(1347, 1, '2018-02-05 13:22:33', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1348, 1, '2018-02-05 13:22:51', 'template_update', 'modTemplate', '1');
+INSERT INTO `modx_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, `item`) VALUES
+(1349, 1, '2018-02-05 13:22:51', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1350, 1, '2018-02-05 13:25:32', 'template_update', 'modTemplate', '1'),
+(1351, 1, '2018-02-05 13:25:32', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1352, 1, '2018-02-05 13:26:03', 'template_update', 'modTemplate', '1'),
+(1353, 1, '2018-02-05 13:26:03', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1354, 1, '2018-02-05 13:27:02', 'template_update', 'modTemplate', '1'),
+(1355, 1, '2018-02-05 13:27:02', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1356, 1, '2018-02-05 13:31:26', 'template_update', 'modTemplate', '1'),
+(1357, 1, '2018-02-05 13:31:26', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1358, 1, '2018-02-05 13:32:41', 'template_update', 'modTemplate', '1'),
+(1359, 1, '2018-02-05 13:32:41', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1360, 1, '2018-02-05 13:33:37', 'template_update', 'modTemplate', '1'),
+(1361, 1, '2018-02-05 13:33:37', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1362, 1, '2018-02-05 13:34:27', 'template_update', 'modTemplate', '1'),
+(1363, 1, '2018-02-05 13:34:28', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1364, 1, '2018-02-05 13:35:56', 'template_update', 'modTemplate', '1'),
+(1365, 1, '2018-02-05 13:35:56', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1366, 1, '2018-02-05 13:39:56', 'template_update', 'modTemplate', '1'),
+(1367, 1, '2018-02-05 13:39:56', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1368, 1, '2018-02-05 13:48:10', 'template_update', 'modTemplate', '1'),
+(1369, 1, '2018-02-05 13:48:10', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1370, 1, '2018-02-05 13:49:49', 'template_update', 'modTemplate', '1'),
+(1371, 1, '2018-02-05 13:49:49', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1372, 1, '2018-02-05 13:50:19', 'template_update', 'modTemplate', '1'),
+(1373, 1, '2018-02-05 13:50:19', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1374, 1, '2018-02-05 13:51:02', 'template_update', 'modTemplate', '1'),
+(1375, 1, '2018-02-05 13:51:02', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1376, 1, '2018-02-05 13:52:06', 'template_update', 'modTemplate', '1'),
+(1377, 1, '2018-02-05 13:52:06', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1378, 1, '2018-02-05 13:52:20', 'chunk_update', 'modChunk', '46'),
+(1379, 1, '2018-02-05 13:52:20', 'propertyset_update_from_element', 'modChunk', '46'),
+(1380, 1, '2018-02-05 13:53:00', 'chunk_update', 'modChunk', '46'),
+(1381, 1, '2018-02-05 13:53:00', 'propertyset_update_from_element', 'modChunk', '46'),
+(1382, 1, '2018-02-05 13:54:02', 'template_update', 'modTemplate', '1'),
+(1383, 1, '2018-02-05 13:54:02', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1384, 1, '2018-02-05 13:54:27', 'template_update', 'modTemplate', '1'),
+(1385, 1, '2018-02-05 13:54:27', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1386, 1, '2018-02-05 13:54:38', 'template_update', 'modTemplate', '1'),
+(1387, 1, '2018-02-05 13:54:38', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1388, 1, '2018-02-05 13:54:47', 'template_update', 'modTemplate', '1'),
+(1389, 1, '2018-02-05 13:54:47', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1390, 1, '2018-02-05 13:55:11', 'template_update', 'modTemplate', '1'),
+(1391, 1, '2018-02-05 13:55:11', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1392, 1, '2018-02-05 13:55:16', 'template_update', 'modTemplate', '1'),
+(1393, 1, '2018-02-05 13:55:16', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1394, 1, '2018-02-05 13:56:02', 'template_update', 'modTemplate', '1'),
+(1395, 1, '2018-02-05 13:56:02', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1396, 1, '2018-02-05 13:56:19', 'template_update', 'modTemplate', '1'),
+(1397, 1, '2018-02-05 13:56:19', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1398, 1, '2018-02-05 13:56:51', 'template_update', 'modTemplate', '1'),
+(1399, 1, '2018-02-05 13:56:52', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1400, 1, '2018-02-05 13:58:30', 'template_duplicate', 'modTemplate', '10'),
+(1401, 1, '2018-02-05 13:59:20', 'template_update', 'modTemplate', '1'),
+(1402, 1, '2018-02-05 13:59:20', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1403, 1, '2018-02-05 13:59:35', 'chunk_create', 'modChunk', '73'),
+(1404, 1, '2018-02-05 13:59:38', 'template_update', 'modTemplate', '1'),
+(1405, 1, '2018-02-05 13:59:38', 'propertyset_update_from_element', 'modTemplate', '1'),
+(1406, 1, '2018-02-05 14:00:25', 'template_update', 'modTemplate', '10'),
+(1407, 1, '2018-02-05 14:00:26', 'propertyset_update_from_element', 'modTemplate', '10'),
+(1408, 1, '2018-02-05 14:01:05', 'chunk_create', 'modChunk', '74'),
+(1409, 1, '2018-02-05 14:01:31', 'chunk_update', 'modChunk', '74'),
+(1410, 1, '2018-02-05 14:01:32', 'propertyset_update_from_element', 'modChunk', '74'),
+(1411, 1, '2018-02-05 14:01:59', 'resource_update', 'modResource', '15'),
+(1412, 1, '2018-02-05 14:11:14', 'chunk_update', 'modChunk', '46'),
+(1413, 1, '2018-02-05 14:11:14', 'propertyset_update_from_element', 'modChunk', '46'),
+(1414, 1, '2018-02-05 14:11:37', 'chunk_update', 'modChunk', '46'),
+(1415, 1, '2018-02-05 14:11:37', 'propertyset_update_from_element', 'modChunk', '46'),
+(1416, 1, '2018-02-05 14:19:23', 'chunk_update', 'modChunk', '73'),
+(1417, 1, '2018-02-05 14:19:23', 'propertyset_update_from_element', 'modChunk', '73'),
+(1418, 1, '2018-02-05 14:19:45', 'chunk_update', 'modChunk', '73'),
+(1419, 1, '2018-02-05 14:19:46', 'propertyset_update_from_element', 'modChunk', '73'),
+(1420, 1, '2018-02-05 14:20:00', 'chunk_update', 'modChunk', '73'),
+(1421, 1, '2018-02-05 14:20:00', 'propertyset_update_from_element', 'modChunk', '73'),
+(1422, 1, '2018-02-05 14:20:21', 'chunk_update', 'modChunk', '73'),
+(1423, 1, '2018-02-05 14:20:21', 'propertyset_update_from_element', 'modChunk', '73');
 
 -- --------------------------------------------------------
 
@@ -3180,7 +3378,8 @@ CREATE TABLE `modx_session` (
 --
 
 INSERT INTO `modx_session` (`id`, `access`, `data`) VALUES
-('0mr6tcoiemc58ov3gi52om35d7', 1517813684, 'modx.user.contextTokens|a:0:{}');
+('5b0r58d55hklf3575g79lcbic3', 1517821054, 'modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.user.contextTokens|a:0:{}'),
+('ofs2b9pu0va2jrqemtkamu84h2', 1517828516, 'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.mgr.user.token|s:52:\"modx59d3260baf34f9.19499995_15a781c946cc581.39284688\";modx.mgr.session.cookie.lifetime|i:0;modx.mgr.user.config|a:0:{}newResourceTokens|a:5:{i:0;s:23:\"5a7826f604c4c1.67726898\";i:1;s:23:\"5a782717be4c75.48939335\";i:2;s:23:\"5a7827217a9034.31804409\";i:3;s:23:\"5a78399b793af3.68257059\";i:4;s:23:\"5a7839a4831f47.57347169\";}modx.user.1.userGroups|a:1:{i:0;i:1;}');
 
 -- --------------------------------------------------------
 
@@ -3239,7 +3438,7 @@ CREATE TABLE `modx_site_content` (
 --
 
 INSERT INTO `modx_site_content` (`id`, `type`, `contentType`, `pagetitle`, `longtitle`, `description`, `alias`, `link_attributes`, `published`, `pub_date`, `unpub_date`, `parent`, `isfolder`, `introtext`, `content`, `richtext`, `template`, `menuindex`, `searchable`, `cacheable`, `createdby`, `createdon`, `editedby`, `editedon`, `deleted`, `deletedon`, `deletedby`, `publishedon`, `publishedby`, `menutitle`, `donthit`, `privateweb`, `privatemgr`, `content_dispo`, `hidemenu`, `class_key`, `context_key`, `content_type`, `uri`, `uri_override`, `hide_children_in_tree`, `show_in_tree`, `properties`) VALUES
-(1, 'document', 'text/html', 'Главная', 'Поздравляем!', '', 'index', '', 1, 0, 0, 0, 0, '', '<p>You have successfully installed MODX Revolution&nbsp;[[++settings_version]]!</p>\r\n<p>Now that MODX is installed you can login to the manager to create your templates, manage content and install third party extras to add functionality to your&nbsp;website.</p>\r\n<h2>New to&nbsp;MODX?</h2>\r\n<p>Pages on a MODX site are called <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/resources\">Resources</a>, and are visible on the left-hand side of the manager in the Resources tab. Resources can be nested under other resources, making it easy to create a tree of resources. There are different types of resources for different use&nbsp;cases.</p>\r\n<p>Building your website is done through a combination of <strong>Templates</strong>, <strong>Template Variables</strong>, <strong>Chunks</strong>, <strong>Snippets</strong> and <strong>Plugins</strong>. Collectively these are known as <strong>Elements</strong>, and can also be found in the left-hand side of the manager, in the Elements&nbsp;tab.</p>\r\n<p><a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/templates\">Templates</a> contain the outer markup of any page. Each resource can only be assigned to a single template at a time. By adding <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/customizing-content/template-variables\">Template Variables</a> to a template, you can add custom fields for any resource using that particular&nbsp;template.</p>\r\n<p>With <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/chunks\">Chunks</a> you can share parts of the markup, such as a header, across different templates. <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/using-snippets\">Snippets</a> are pieces of PHP that return dynamic content, such as summaries of other resources or the current date. With snippets, you will often use Chunks to mark up the pieces of content it returns, instead of mixing the PHP and&nbsp;HTML.</p>\r\n<p>Finally, <a href=\"https://rtfm.modx.com/revolution/2.x/developing-in-modx/basic-development/plugins\">Plugins</a> enable more advanced features by hooking into the extensive events system provided by&nbsp;MODX.</p>\r\n<p>To learn more about MODX, be sure to check out the <a href=\"https://rtfm.modx.com/revolution/2.x/getting-started\">Getting Started</a> section in the official&nbsp;documentation.</p>', 1, 1, 0, 1, 1, 1, 1507010063, 1, 1516286186, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 'modDocument', 'web', 1, 'index.html', 0, 0, 1, NULL),
+(1, 'document', 'text/html', 'Alerts', 'Поздравляем!', '', 'alerts', '', 1, 0, 0, 0, 0, '', '<p>You have successfully installed MODX Revolution&nbsp;[[++settings_version]]!</p>\r\n<p>Now that MODX is installed you can login to the manager to create your templates, manage content and install third party extras to add functionality to your&nbsp;website.</p>\r\n<h2>New to&nbsp;MODX?</h2>\r\n<p>Pages on a MODX site are called <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/resources\">Resources</a>, and are visible on the left-hand side of the manager in the Resources tab. Resources can be nested under other resources, making it easy to create a tree of resources. There are different types of resources for different use&nbsp;cases.</p>\r\n<p>Building your website is done through a combination of <strong>Templates</strong>, <strong>Template Variables</strong>, <strong>Chunks</strong>, <strong>Snippets</strong> and <strong>Plugins</strong>. Collectively these are known as <strong>Elements</strong>, and can also be found in the left-hand side of the manager, in the Elements&nbsp;tab.</p>\r\n<p><a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/templates\">Templates</a> contain the outer markup of any page. Each resource can only be assigned to a single template at a time. By adding <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/customizing-content/template-variables\">Template Variables</a> to a template, you can add custom fields for any resource using that particular&nbsp;template.</p>\r\n<p>With <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/chunks\">Chunks</a> you can share parts of the markup, such as a header, across different templates. <a href=\"https://rtfm.modx.com/revolution/2.x/making-sites-with-modx/structuring-your-site/using-snippets\">Snippets</a> are pieces of PHP that return dynamic content, such as summaries of other resources or the current date. With snippets, you will often use Chunks to mark up the pieces of content it returns, instead of mixing the PHP and&nbsp;HTML.</p>\r\n<p>Finally, <a href=\"https://rtfm.modx.com/revolution/2.x/developing-in-modx/basic-development/plugins\">Plugins</a> enable more advanced features by hooking into the extensive events system provided by&nbsp;MODX.</p>\r\n<p>To learn more about MODX, be sure to check out the <a href=\"https://rtfm.modx.com/revolution/2.x/getting-started\">Getting Started</a> section in the official&nbsp;documentation.</p>', 1, 1, 0, 1, 1, 1, 1507010063, 1, 1517823751, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 'modDocument', 'web', 1, 'alerts.html', 0, 0, 1, NULL),
 (2, 'document', 'text/html', 'Blog', '', 'Demo blog container page for Blogit.', 'blog', '', 1, 0, 0, 0, 1, '', '<h1>Blog overview</h1>', 1, 2, 2, 1, 1, 1, 1507010784, 1, 1507028127, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 1, 'CollectionContainer', 'web', 1, 'blog/', 0, 0, 1, NULL),
 (3, 'document', 'text/html', 'Post 1', '', 'Demo post 1 for the BlogIt extra.', 'post-1', '', 0, 0, 0, 2, 0, 'Demo summary of post 2 for the BlogIt extra.', '<p>Demo content of post 2 for the BlogIt extra.</p>', 1, 3, 0, 1, 1, 1, 1507010784, 1, 1507028115, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 'modDocument', 'web', 1, 'post-1.html', 0, 0, 0, NULL),
 (4, 'document', 'text/html', 'Post 2', '', 'Demo post 2 for the BlogIt extra.', 'post-2', '', 0, 0, 0, 2, 0, 'Demo summary of post 2 for the BlogIt extra.', '<p>Demo content of post 2 for the BlogIt extra.</p>', 1, 3, 1, 1, 1, 1, 1507010784, 1, 1507028117, 0, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 'modDocument', 'web', 1, 'post-2.html', 0, 0, 0, NULL),
@@ -3251,7 +3450,8 @@ INSERT INTO `modx_site_content` (`id`, `type`, `contentType`, `pagetitle`, `long
 (10, 'document', 'text/html', 'Регистрация', '', '', 'registration', '', 1, 0, 0, 0, 0, '', '', 1, 7, 7, 1, 1, 1, 1507014175, 1, 1507015499, 0, 0, 0, 1507014120, 1, '', 0, 0, 0, 0, 1, 'modDocument', 'web', 1, 'registration.html', 0, 0, 1, NULL),
 (11, 'document', 'text/html', 'Подтверждение регистрации', '', '', 'registration-accese', '', 1, 0, 0, 0, 0, '', '', 1, 6, 8, 1, 1, 1, 1507014214, 1, 1507015245, 0, 0, 0, 1507014180, 1, '', 0, 0, 0, 0, 1, 'modDocument', 'web', 1, 'registration-accese.html', 0, 0, 1, NULL),
 (12, 'document', 'text/html', 'Активация регистрации', '', '', 'activation', '', 1, 0, 0, 0, 0, '', '', 1, 4, 9, 1, 1, 1, 1507014252, 1, 1507015536, 0, 0, 0, 1507014240, 1, '', 0, 0, 0, 0, 1, 'modDocument', 'web', 1, 'activation.html', 0, 0, 1, NULL),
-(13, 'document', 'text/html', 'Результаты поиска', '', '', 'result-search', '', 1, 0, 0, 0, 0, '', '', 1, 8, 10, 1, 1, 1, 1507014294, 1, 1507016176, 0, 0, 0, 1507014240, 1, '', 0, 0, 0, 0, 1, 'modDocument', 'web', 1, 'result-search.html', 0, 0, 1, NULL);
+(13, 'document', 'text/html', 'Результаты поиска', '', '', 'result-search', '', 1, 0, 0, 0, 0, '', '', 1, 8, 10, 1, 1, 1, 1507014294, 1, 1507016176, 0, 0, 0, 1507014240, 1, '', 0, 0, 0, 0, 1, 'modDocument', 'web', 1, 'result-search.html', 0, 0, 1, NULL),
+(15, 'document', 'text/html', 'Badges', '', '', 'badges', '', 1, 0, 0, 0, 0, '', '', 1, 10, 11, 1, 1, 1, 1517823775, 1, 1517828519, 0, 0, 0, 1517823720, 1, '', 0, 0, 0, 0, 0, 'modDocument', 'web', 1, 'badges.html', 0, 0, 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -3318,10 +3518,13 @@ INSERT INTO `modx_site_htmlsnippets` (`id`, `source`, `property_preprocess`, `na
 (36, 1, 0, 'Head', '', 0, 22, 0, '<!DOCTYPE html>\n<html class=\"no-js\" lang=\"en\">\n<head>\n  <base href=\"[[++site_url]]\" />\n  <meta charset=\"[[++modx_charset]]\" />\n    <title>[[*longtitle:default=`[[*pagetitle]]`]] - [[++site_url]]</title>\n    <meta name=\"description\" content=\"\">\n    \n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta property=\"og:image\" content=\"path/to/image.jpg\">\n    <link rel=\"shortcut icon\" href=\"http://www.chuvyr.ru/favicon.ico\" />\n    <!-- <link rel=\"icon\" type=\"image/png\" href=\"/favicon.png\" />\n    <link rel=\"icon\" type=\"image/gif\" href=\"/favicon.gif\" />\n    <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon-57×57.png\" />\n    <link rel=\"apple-touch-icon-precomposed\" href=\"/apple-touch-icon-57×57-precomposed.png\"/> -->\n    \n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Raleway:400,800\">\n    <link rel=\'stylesheet\' href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">\n    <!-- <link rel=\"stylesheet\" href=\"[[++assets_url]]templates/Stas/app/css/bootstrap.min.css\"> -->\n    <link rel=\"stylesheet\" href=\"[[++assets_url]]templates/Stas/app/css/styles.min.css\">\n    \n    \n    <!-- Chrome, Firefox OS and Opera -->\n    <meta name=\"theme-color\" content=\"#4285f4\">\n    <!-- Windows Phone -->\n    <meta name=\"msapplication-navbutton-color\" content=\"#4285f4\">\n    <!-- iOS Safari -->\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#4285f4\">\n</head>\n\n<body>', 0, 'a:1:{s:9:\"bodyClass\";a:7:{s:4:\"name\";s:9:\"bodyClass\";s:4:\"desc\";s:0:\"\";s:4:\"type\";s:9:\"textfield\";s:7:\"options\";a:0:{}s:5:\"value\";s:0:\"\";s:7:\"lexicon\";N;s:4:\"area\";s:0:\"\";}}', 0, ''),
 (38, 0, 0, 'Login', '', 0, 12, 0, '<div class=\"clearfix\"></div>\n<section class=\"main-login\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">[[!Login? &loginTpl=`lgnLoginTpl` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`1` &logoutResourceId=`1`]]</div>\n        </div>\n    </div>\n</section>', 0, NULL, 0, ''),
 (39, 1, 0, 'Main unreg', '', 0, 22, 0, '', 0, 'a:0:{}', 0, ''),
-(46, 0, 0, 'Navbar', '', 0, 22, 0, '<div class=\"container-fluid\">\n    <nav class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-primary\">\n        <a class=\"navbar-brand\" href=\"#\">\n    <img src=\"https://getbootstrap.com/assets/brand/bootstrap-solid.svg\" width=\"30\" height=\"30\" alt=\"\">\n  </a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\">\n    <span class=\"navbar-toggler-icon\"></span>\n</button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">Home</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">About</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">Products</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">Contact</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n    <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" data-toggle=\"dropdown\">\n        Products\n    </a>\n    \n    <div class=\"dropdown-menu dropdown-menu-right mt-2\">\n        <a class=\"dropdown-item\" href=\"#\">Product 1</a>\n        <a class=\"dropdown-item\" href=\"#\">Product 2</a>\n        <div class=\"dropdown-divider\"></div>\n        <a class=\"dropdown-item\" href=\"#\">Another Product</a>\n    </div>\n</li>\n            </ul>\n            <form class=\"form-inline my-2 my-lg-0\">\n      <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n      <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>\n    </form>\n        </div>\n    </nav>\n</div>', 0, 'a:0:{}', 0, ''),
+(46, 0, 0, 'Navbar', '', 0, 22, 0, ' <nav class=\"navbar navbar-expand-sm navbar-light bg-light sticky-top\">\n  \n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse  justify-content-center\" id=\"navbarSupportedContent\">\n   	[[Wayfinder?\n						&startId=`0`\n						&level=`1`\n						&outerTpl=`tpl.Wayfinder.outer`\n						&parentRowTpl=`tpl.Wayfinder.row.parent`\n						&innerRowTpl=`tpl.Wayfinder.row.inner`\n						&rowTpl=`tpl.Wayfinder.row`\n						&outerClass=`navbar-nav flex-sm-column`\n					    ]]\n  </div>\n</nav>', 0, 'a:0:{}', 0, ''),
+(73, 0, 0, 'Alerts', '', 0, 22, 0, '<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col-12 col-sm-3 text-center px-0\">\n     [[$Navbar]]\n    </div>\n    <div class=\"col-sm-9 py-md-3 px-0\">\n      <h2 class=\"my-3 mx-3\">Alerts</h2>\n   <div class=\"bd-example\">\n<div class=\"alert alert-primary\" role=\"alert\">\n  This is a primary alert—check it out!\n</div>\n<div class=\"alert alert-secondary\" role=\"alert\">\n  This is a secondary alert—check it out!\n</div>\n<div class=\"alert alert-success\" role=\"alert\">\n  This is a success alert—check it out!\n</div>\n<div class=\"alert alert-danger\" role=\"alert\">\n  This is a danger alert—check it out!\n</div>\n<div class=\"alert alert-warning\" role=\"alert\">\n  This is a warning alert—check it out!\n</div>\n<div class=\"alert alert-info\" role=\"alert\">\n  This is a info alert—check it out!\n</div>\n<div class=\"alert alert-light\" role=\"alert\">\n  This is a light alert—check it out!\n</div>\n<div class=\"alert alert-dark\" role=\"alert\">\n  This is a dark alert—check it out!\n</div>\n</div>\n<div class=\"highlight\"><pre><code class=\"language-html\" data-lang=\"html\"><span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-primary\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a primary alert—check it out!\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-secondary\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a secondary alert—check it out!\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-success\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a success alert—check it out!\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-danger\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a danger alert—check it out!\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-warning\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a warning alert—check it out!\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-info\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a info alert—check it out!\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-light\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a light alert—check it out!\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-dark\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a dark alert—check it out!\n<span class=\"nt\">&lt;/div&gt;</span></code></pre></div>\n<div class=\"dropdown-divider\"></div>\n\n<div class=\"bd-example\">\n<div class=\"alert alert-primary\" role=\"alert\">\n  This is a primary alert with <a href=\"#\" class=\"alert-link\">an example link</a>. Give it a click if you like.\n</div>\n<div class=\"alert alert-secondary\" role=\"alert\">\n  This is a secondary alert with <a href=\"#\" class=\"alert-link\">an example link</a>. Give it a click if you like.\n</div>\n<div class=\"alert alert-success\" role=\"alert\">\n  This is a success alert with <a href=\"#\" class=\"alert-link\">an example link</a>. Give it a click if you like.\n</div>\n<div class=\"alert alert-danger\" role=\"alert\">\n  This is a danger alert with <a href=\"#\" class=\"alert-link\">an example link</a>. Give it a click if you like.\n</div>\n<div class=\"alert alert-warning\" role=\"alert\">\n  This is a warning alert with <a href=\"#\" class=\"alert-link\">an example link</a>. Give it a click if you like.\n</div>\n<div class=\"alert alert-info\" role=\"alert\">\n  This is a info alert with <a href=\"#\" class=\"alert-link\">an example link</a>. Give it a click if you like.\n</div>\n<div class=\"alert alert-light\" role=\"alert\">\n  This is a light alert with <a href=\"#\" class=\"alert-link\">an example link</a>. Give it a click if you like.\n</div>\n<div class=\"alert alert-dark\" role=\"alert\">\n  This is a dark alert with <a href=\"#\" class=\"alert-link\">an example link</a>. Give it a click if you like.\n</div>\n</div>\n<div class=\"highlight\"><pre><code class=\"language-html\" data-lang=\"html\"><span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-primary\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a primary alert with <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"#\"</span> <span class=\"na\">class=</span><span class=\"s\">\"alert-link\"</span><span class=\"nt\">&gt;</span>an example link<span class=\"nt\">&lt;/a&gt;</span>. Give it a click if you like.\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-secondary\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a secondary alert with <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"#\"</span> <span class=\"na\">class=</span><span class=\"s\">\"alert-link\"</span><span class=\"nt\">&gt;</span>an example link<span class=\"nt\">&lt;/a&gt;</span>. Give it a click if you like.\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-success\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a success alert with <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"#\"</span> <span class=\"na\">class=</span><span class=\"s\">\"alert-link\"</span><span class=\"nt\">&gt;</span>an example link<span class=\"nt\">&lt;/a&gt;</span>. Give it a click if you like.\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-danger\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a danger alert with <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"#\"</span> <span class=\"na\">class=</span><span class=\"s\">\"alert-link\"</span><span class=\"nt\">&gt;</span>an example link<span class=\"nt\">&lt;/a&gt;</span>. Give it a click if you like.\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-warning\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a warning alert with <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"#\"</span> <span class=\"na\">class=</span><span class=\"s\">\"alert-link\"</span><span class=\"nt\">&gt;</span>an example link<span class=\"nt\">&lt;/a&gt;</span>. Give it a click if you like.\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-info\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a info alert with <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"#\"</span> <span class=\"na\">class=</span><span class=\"s\">\"alert-link\"</span><span class=\"nt\">&gt;</span>an example link<span class=\"nt\">&lt;/a&gt;</span>. Give it a click if you like.\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-light\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a light alert with <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"#\"</span> <span class=\"na\">class=</span><span class=\"s\">\"alert-link\"</span><span class=\"nt\">&gt;</span>an example link<span class=\"nt\">&lt;/a&gt;</span>. Give it a click if you like.\n<span class=\"nt\">&lt;/div&gt;</span>\n<span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-dark\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  This is a dark alert with <span class=\"nt\">&lt;a</span> <span class=\"na\">href=</span><span class=\"s\">\"#\"</span> <span class=\"na\">class=</span><span class=\"s\">\"alert-link\"</span><span class=\"nt\">&gt;</span>an example link<span class=\"nt\">&lt;/a&gt;</span>. Give it a click if you like.\n<span class=\"nt\">&lt;/div&gt;</span></code></pre></div>\n<div class=\"dropdown-divider\"></div>\n<div class=\"bd-example\">\n<div class=\"alert alert-success\" role=\"alert\">\n  <h4 class=\"alert-heading\">Well done!</h4>\n  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>\n  <hr>\n  <p class=\"mb-0\">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>\n</div>\n</div>\n<div class=\"highlight\"><pre><code class=\"language-html\" data-lang=\"html\"><span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-success\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  <span class=\"nt\">&lt;h4</span> <span class=\"na\">class=</span><span class=\"s\">\"alert-heading\"</span><span class=\"nt\">&gt;</span>Well done!<span class=\"nt\">&lt;/h4&gt;</span>\n  <span class=\"nt\">&lt;p&gt;</span>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.<span class=\"nt\">&lt;/p&gt;</span>\n  <span class=\"nt\">&lt;hr&gt;</span>\n  <span class=\"nt\">&lt;p</span> <span class=\"na\">class=</span><span class=\"s\">\"mb-0\"</span><span class=\"nt\">&gt;</span>Whenever you need to, be sure to use margin utilities to keep things nice and tidy.<span class=\"nt\">&lt;/p&gt;</span>\n<span class=\"nt\">&lt;/div&gt;</span></code></pre></div>\n<div class=\"dropdown-divider\"></div>\n<div class=\"bd-example\">\n<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">\n  <strong>Holy guacamole!</strong> You should check in on some of those fields below.\n  <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n    <span aria-hidden=\"true\">×</span>\n  </button>\n</div>\n</div>\n<div class=\"highlight\"><pre><code class=\"language-html\" data-lang=\"html\"><span class=\"nt\">&lt;div</span> <span class=\"na\">class=</span><span class=\"s\">\"alert alert-warning alert-dismissible fade show\"</span> <span class=\"na\">role=</span><span class=\"s\">\"alert\"</span><span class=\"nt\">&gt;</span>\n  <span class=\"nt\">&lt;strong&gt;</span>Holy guacamole!<span class=\"nt\">&lt;/strong&gt;</span> You should check in on some of those fields below.\n  <span class=\"nt\">&lt;button</span> <span class=\"na\">type=</span><span class=\"s\">\"button\"</span> <span class=\"na\">class=</span><span class=\"s\">\"close\"</span> <span class=\"na\">data-dismiss=</span><span class=\"s\">\"alert\"</span> <span class=\"na\">aria-label=</span><span class=\"s\">\"Close\"</span><span class=\"nt\">&gt;</span>\n    <span class=\"nt\">&lt;span</span> <span class=\"na\">aria-hidden=</span><span class=\"s\">\"true\"</span><span class=\"nt\">&gt;</span><span class=\"ni\">&amp;times;</span><span class=\"nt\">&lt;/span&gt;</span>\n  <span class=\"nt\">&lt;/button&gt;</span>\n<span class=\"nt\">&lt;/div&gt;</span></code></pre></div>\n<div class=\"dropdown-divider\"></div>\n<figure class=\"highlight\"><pre><code class=\"language-js\" data-lang=\"js\"><span class=\"nx\">$</span><span class=\"p\">(</span><span class=\"s1\">\'.alert\'</span><span class=\"p\">).</span><span class=\"nx\">alert</span><span class=\"p\">()</span></code></pre></figure>\n<figure class=\"highlight\"><pre><code class=\"language-html\" data-lang=\"html\"><span class=\"nt\">&lt;button</span> <span class=\"na\">type=</span><span class=\"s\">\"button\"</span> <span class=\"na\">class=</span><span class=\"s\">\"close\"</span> <span class=\"na\">data-dismiss=</span><span class=\"s\">\"alert\"</span> <span class=\"na\">aria-label=</span><span class=\"s\">\"Close\"</span><span class=\"nt\">&gt;</span>\n  <span class=\"nt\">&lt;span</span> <span class=\"na\">aria-hidden=</span><span class=\"s\">\"true\"</span><span class=\"nt\">&gt;</span><span class=\"ni\">&amp;times;</span><span class=\"nt\">&lt;/span&gt;</span>\n<span class=\"nt\">&lt;/button&gt;</span></code></pre></figure>\n<table>\n  <thead>\n    <tr>\n      <th>Method</th>\n      <th>Description</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><code class=\"highlighter-rouge\">$().alert()</code></td>\n      <td>Makes an alert listen for click events on descendant elements which have the <code class=\"highlighter-rouge\">data-dismiss=\"alert\"</code> attribute. (Not necessary when using the data-api’s auto-initialization.)</td>\n    </tr>\n    <tr>\n      <td><code class=\"highlighter-rouge\">$().alert(\'close\')</code></td>\n      <td>Closes an alert by removing it from the DOM. If the <code class=\"highlighter-rouge\">.fade</code> and <code class=\"highlighter-rouge\">.show</code> classes are present on the element, the alert will fade out before it is removed.</td>\n    </tr>\n    <tr>\n      <td><code class=\"highlighter-rouge\">$().alert(\'dispose\')</code></td>\n      <td>Destroys an element’s alert.</td>\n    </tr>\n  </tbody>\n</table>\n<figure class=\"highlight\"><pre><code class=\"language-js\" data-lang=\"js\"><span class=\"nx\">$</span><span class=\"p\">(</span><span class=\"s2\">\".alert\"</span><span class=\"p\">).</span><span class=\"nx\">alert</span><span class=\"p\">(</span><span class=\"s1\">\'close\'</span><span class=\"p\">)</span></code></pre></figure>\n<table>\n  <thead>\n    <tr>\n      <th>Event</th>\n      <th>Description</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><code class=\"highlighter-rouge\">close.bs.alert</code></td>\n      <td>This event fires immediately when the <code>close</code> instance method is called.</td>\n    </tr>\n    <tr>\n      <td><code class=\"highlighter-rouge\">closed.bs.alert</code></td>\n      <td>This event is fired when the alert has been closed (will wait for CSS transitions to complete).</td>\n    </tr>\n  </tbody>\n</table>\n<figure class=\"highlight\"><pre><code class=\"language-js\" data-lang=\"js\"><span class=\"nx\">$</span><span class=\"p\">(</span><span class=\"s1\">\'#myAlert\'</span><span class=\"p\">).</span><span class=\"nx\">on</span><span class=\"p\">(</span><span class=\"s1\">\'closed.bs.alert\'</span><span class=\"p\">,</span> <span class=\"kd\">function</span> <span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"c1\">// do something…</span>\n<span class=\"p\">})</span></code></pre></figure>\n\n\n\n\n  </div>\n</div>\n</div>', 0, 'a:0:{}', 0, ''),
 (41, 1, 0, 'Main', '', 0, 22, 0, '', 0, 'a:0:{}', 0, ''),
 (42, 1, 0, 'Footer', '', 0, 22, 0, '<footer class=\"page-footer\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col l6 s12\">\n        <h5 class=\"white-text\">Content</h5>\n        <p class=\"grey-text text-lighten-4\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, voluptate, beatae! Tempore inventore possimus est eligendi, ea, quidem quo. Odio repudiandae nulla facilis, vel, incidunt sit veniam beatae commodi quibusdam non! Voluptas animi nesciunt dolor accusantium quos voluptatum tenetur nulla labore exercitationem nihil nemo facilis officia ipsum, reprehenderit. Ex, libero.</p>\n      </div>\n      <div class=\"col l6 offset-12 s12\">\n        <h5 class=\"white-text\">Links</h5>\n        <ul>\n          <li class=\"grey-text text-lighten-3\">link1</li>\n          <li class=\"grey-text text-lighten-3\">link2</li>\n          <li class=\"grey-text text-lighten-3\">link3</li>\n          <li class=\"grey-text text-lighten-3\">link4</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n  <div class=\"footer-copyright\">\n    <div class=\"container\">\n      <div class=\"row\">@copyStanruss\n  <a href=\"#!\" class=\"grey-text text-lighten-3 right\">More links</a></div>\n    </div>\n  </div>\n</footer>', 0, 'a:0:{}', 0, ''),
-(44, 1, 0, 'Scripts', '', 0, 22, 0, '  <script src=\"[[++assets_url]]templates/Stas/app/js/libs.min.js\"></script>\n  <script type=\"text/javascript\" src=\"[[++assets_url]]templates/Stas/app/js/common.js\"></script>\n \n\n', 0, 'a:0:{}', 0, '');
+(44, 1, 0, 'Scripts', '', 0, 22, 0, '  <script src=\"[[++assets_url]]templates/Stas/app/js/libs.min.js\"></script>\n  <script type=\"text/javascript\" src=\"[[++assets_url]]templates/Stas/app/js/common.js\"></script>\n \n\n', 0, 'a:0:{}', 0, ''),
+(72, 0, 0, 'Content', '', 0, 22, 0, '', 0, 'a:0:{}', 0, ''),
+(74, 0, 0, 'Badges', '', 0, 22, 0, '<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col-12 col-sm-3 text-center px-0\">\n     [[$Navbar]]\n    </div>\n    <div class=\"col-sm-9 py-md-3 px-0\">\n  \n\n\n\n  </div>\n</div>\n</div>', 0, 'a:0:{}', 0, '');
 
 -- --------------------------------------------------------
 
@@ -3590,14 +3793,15 @@ CREATE TABLE `modx_site_templates` (
 --
 
 INSERT INTO `modx_site_templates` (`id`, `source`, `property_preprocess`, `templatename`, `description`, `editor_type`, `category`, `icon`, `template_type`, `content`, `locked`, `properties`, `static`, `static_file`) VALUES
-(1, 0, 0, 'index', 'Template', 0, 0, '', 0, '[[$Head]]\n[[$Navbar]]\n\n\n[[$Scripts]]\n</body>\n</html>', 0, 'a:0:{}', 0, ''),
+(1, 0, 0, 'index', 'Template', 0, 0, '', 0, '[[$Head]]\n[[$Alerts]]\n[[$Scripts]]\n</body>\n</html>', 0, 'a:0:{}', 0, ''),
 (2, 0, 0, 'Blogit container', 'Blogit - Created by MPThemes http://mpthemes.com', 0, 7, '', 0, '<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n	<base href=\"[[++site_url]]\" />\r\n        <meta charset=\"[[++modx_charset:lcase]]\" />\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n        <title>[[*longtitle:strip_tags:empty=`[[*pagetitle:strip_tags]]`]] | [[++site_name:strip_tags]]</title>\r\n        <meta name=\"description\" content=\"[[*description:notempty=`[[*description]]`:default=`[[+content:ellipsis=`155`]]`]]\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n</head>\r\n<body>\r\n	[[*content]]\r\n	<!-- BlogIt - This chunk grabs all children of the resource. -->\r\n	[[$blogit.get_posts]]\r\n	<!-- BlogIt - This chunk grabs all uses Tagger tags used in posts -->\r\n	[[$blogit.taglist]]\r\n</body>\r\n</html>', 0, NULL, 0, ''),
 (3, 0, 0, 'Blogit post', 'Blogit - Created by MPThemes http://mpthemes.com', 0, 7, '', 0, '<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n	<base href=\"[[++site_url]]\" />\r\n        <meta charset=\"[[++modx_charset:lcase]]\" />\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n        <title>[[*longtitle:strip_tags:empty=`[[*pagetitle:strip_tags]]`]] | [[++site_name:strip_tags]]</title>\r\n        <meta name=\"description\" content=\"[[*description:notempty=`[[*description]]`:default=`[[+content:ellipsis=`155`]]`]]\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n</head>\r\n<body>\r\n	[[blogit.lexicon_load]]\r\n	<p><a href=\"[[~[[*parent]]]]\">[[%blogit.back_to_overview]]</a></p>\r\n	<article>\r\n		<header>\r\n			<h1>[[*longtitle:strip_tags:empty=`[[*pagetitle:strip_tags]]`]]</h1>\r\n		</header>\r\n		[[*blogit.post_main_image:isnot=``:then=`<img src=\"[[*blogit.post_main_image:phpthumbof=`w=[[++blogit.main_image_width]]`]]\" alt=\"[[*blogit.post_main_image_alt]]\">`]]\r\n		[[*content]]\r\n		<footer>\r\n			<small>[[%blogit.published_on]]: <time datetime=\"[[*publishedon:strtotime:date=`%y-%m-%d`]]\">[[*publishedon:strtotime:date=`%b %d %Y`]]</time></small><br>\r\n			<small>[[%blogit.created_by]]: [[*createdby:userinfo=`username`]]</small><br>\r\n			[[++blogit.use_tags:isequalto=`1`:then=`\r\n			<small>Tags: [[!TaggerGetTags? &resources=`[[*id]]` &rowTpl=`blogit.tag_links_tpl` &separator=`, ` &target=`[[++blogit.blog_container_id]]`]]</small>\r\n			`]]\r\n		</footer>\r\n	</article>\r\n</body>\r\n</html>', 0, NULL, 0, ''),
 (4, 1, 0, 'confirm reg', '', 0, 21, '', 0, '[[$Head]]\n<body>\n<section class=\"confirmreg\">  \n      [[!ConfirmRegister? &redirectTo=`1`]]\n      <p class=\"center\">Теперь вы можете войти в свою учетную запись <a href=\"http://[[Host]]\"> Здесь</a></p>\n    </section>   \n[[$Scripts]]\n</body>\n</html>', 0, 'a:0:{}', 0, ''),
 (5, 1, 0, 'Forgot Password', '', 0, 21, '', 0, '[[$Head]]\n<div id=\"my-page\">\n    <div id=\"my-header\">\n      [[$Header]]\n    </div>\n    <div id=\"my-content\">\n      [[$Navbar]]\n		  [[$Forgp]]\n    </div>\n    <div id=\"my-footer\">\n      [[$Footer]]\n    </div>\n</div>\n[[$Scripts]]\n</body>\n</html>', 0, 'a:0:{}', 0, ''),
 (6, 1, 0, 'Подтверждение регистрации', '', 0, 21, '', 0, '[[$Head]]\n<div id=\"my-page\">\n    <div id=\"my-header\">\n      [[$Header]]\n    </div>\n    <div id=\"my-content\">\n      [[$Navbar]]\n      <div class=\"clearfix\"></div>\n		  <p style=\"text-align:center\"> Подтвердите свою регистрацию на почте </p>\n    </div>\n    <div id=\"my-footer\">\n      [[$Footer]]\n    </div>\n</div>\n[[$Scripts]]\n</body>\n</html>', 0, 'a:0:{}', 0, ''),
 (7, 1, 0, 'Регистрация', '', 0, 21, '', 0, '[[$Head]]\n<div id=\"my-page\">\n    <div id=\"my-header\">\n      [[$Header]]\n    </div>\n    <div id=\"my-content\">\n      [[$Navbar]]\n      [[$Registr]]\n    </div>\n    <div id=\"my-footer\">\n      [[$Footer]]\n    </div>\n</div>\n[[$Scripts]]\n</body>\n</html>', 0, 'a:0:{}', 0, ''),
-(8, 1, 0, 'Результаты поиска', '', 0, 19, '', 0, '[[$Head]]\n<div id=\"my-page\">\n    <div id=\"my-header\">\n      [[$Header]]\n    </div>\n    <div id=\"my-content\">\n      [[$Navbar]]\n      <section class=\"search-all\">\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-md-12\">\n	            [[!SimpleSearch? &tpl=`SimpleSearchResult` &containerTpl=`SimpleSearchOuter` &pageTpl=`SimpleSearchPageTpl` &currentPageTpl=`SimpleSearchPageTplActive` &includeTVs=`1` &processTVs=`1`]]\n	            [[!SimpleSearchForm? &landing=`13` &tpl=`search`]]\n            </div>\n          </div>\n        </div>\n      </section>\n    </div>\n    <div id=\"my-footer\">\n      [[$Footer]]\n    </div>\n</div>\n[[$Scripts]]\n</body>\n</html>', 0, 'a:0:{}', 0, '');
+(8, 1, 0, 'Результаты поиска', '', 0, 19, '', 0, '[[$Head]]\n<div id=\"my-page\">\n    <div id=\"my-header\">\n      [[$Header]]\n    </div>\n    <div id=\"my-content\">\n      [[$Navbar]]\n      <section class=\"search-all\">\n        <div class=\"container\">\n          <div class=\"row\">\n            <div class=\"col-md-12\">\n	            [[!SimpleSearch? &tpl=`SimpleSearchResult` &containerTpl=`SimpleSearchOuter` &pageTpl=`SimpleSearchPageTpl` &currentPageTpl=`SimpleSearchPageTplActive` &includeTVs=`1` &processTVs=`1`]]\n	            [[!SimpleSearchForm? &landing=`13` &tpl=`search`]]\n            </div>\n          </div>\n        </div>\n      </section>\n    </div>\n    <div id=\"my-footer\">\n      [[$Footer]]\n    </div>\n</div>\n[[$Scripts]]\n</body>\n</html>', 0, 'a:0:{}', 0, ''),
+(10, 0, 0, 'Badges', 'Template', 0, 0, '', 0, '[[$Head]]\n[[$Badges]]\n[[$Scripts]]\n</body>\n</html>', 0, 'a:0:{}', 0, '');
 
 -- --------------------------------------------------------
 
@@ -3668,7 +3872,7 @@ CREATE TABLE `modx_site_tmplvar_contentvalues` (
 INSERT INTO `modx_site_tmplvar_contentvalues` (`id`, `tmplvarid`, `contentid`, `value`) VALUES
 (1, 1, 3, 'assets/components/blogit/img/blogit_post_img.png'),
 (2, 2, 3, 'BlogIt logo'),
-(3, 3, 1, '[{\"MIGX_id\":\"1\",\"col\":\"col s12 m6 l3\",\"image\":\"assets/templates/Stas/app/img/1.jpg\",\"card title\":\"card title1\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"2\",\"col\":\"col s12 m6 l3\",\"image\":\"assets/templates/Stas/app/img/2.jpg\",\"card title\":\"card title 2\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"3\",\"col\":\"col s12 m6 l3\",\"image\":\"assets/templates/Stas/app/img/3.jpg\",\"card title\":\"card title3\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"4\",\"col\":\"col s12 m6 l3\",\"image\":\"assets/templates/Stas/app/img/2.jpg\",\"card title\":\"card title4\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"}]');
+(3, 3, 1, '[{\"MIGX_id\":\"1\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/1.jpg\",\"card title\":\"card title1\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"2\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/2.jpg\",\"card title\":\"card title 2\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"3\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/3.jpg\",\"card title\":\"card title3\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"},{\"MIGX_id\":\"4\",\"col\":\"col s12 m6 l3\",\"image\":\"assets\\/templates\\/Stas\\/app\\/img\\/2.jpg\",\"card title\":\"card title4\",\"link\":\"#\",\"p\":\"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"}]');
 
 -- --------------------------------------------------------
 
@@ -3689,7 +3893,8 @@ CREATE TABLE `modx_site_tmplvar_templates` (
 INSERT INTO `modx_site_tmplvar_templates` (`tmplvarid`, `templateid`, `rank`) VALUES
 (1, 3, 0),
 (2, 3, 0),
-(3, 1, 0);
+(3, 1, 0),
+(3, 10, 0);
 
 -- --------------------------------------------------------
 
@@ -4572,7 +4777,7 @@ CREATE TABLE `modx_user_attributes` (
 --
 
 INSERT INTO `modx_user_attributes` (`id`, `internalKey`, `fullname`, `email`, `phone`, `mobilephone`, `blocked`, `blockeduntil`, `blockedafter`, `logincount`, `lastlogin`, `thislogin`, `failedlogincount`, `sessionid`, `dob`, `gender`, `address`, `country`, `city`, `state`, `zip`, `fax`, `photo`, `comment`, `website`, `extended`) VALUES
-(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 26, 1517583873, 1517810594, 0, 't6nvspjd6a5cqudp1t2m1vkc47', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
+(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 27, 1517810594, 1517821076, 0, 'ofs2b9pu0va2jrqemtkamu84h2', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
 (2, 2, '', 'stan1978@gmail.com', '', '', 0, 0, 0, 3, 1507027219, 1516255911, 0, '9lkho41cebf6ndm6o7a5ovqgg0', 0, 1, '', '', 'Тверь', '', '19000', '', '', '', '', '[]');
 
 -- --------------------------------------------------------
@@ -5709,7 +5914,7 @@ ALTER TABLE `modx_lexicon_entries`
 -- AUTO_INCREMENT для таблицы `modx_manager_log`
 --
 ALTER TABLE `modx_manager_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1227;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1424;
 --
 -- AUTO_INCREMENT для таблицы `modx_media_sources`
 --
@@ -5779,12 +5984,12 @@ ALTER TABLE `modx_register_topics`
 -- AUTO_INCREMENT для таблицы `modx_site_content`
 --
 ALTER TABLE `modx_site_content`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT для таблицы `modx_site_htmlsnippets`
 --
 ALTER TABLE `modx_site_htmlsnippets`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
 --
 -- AUTO_INCREMENT для таблицы `modx_site_plugins`
 --
@@ -5799,7 +6004,7 @@ ALTER TABLE `modx_site_snippets`
 -- AUTO_INCREMENT для таблицы `modx_site_templates`
 --
 ALTER TABLE `modx_site_templates`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT для таблицы `modx_site_tmplvars`
 --
