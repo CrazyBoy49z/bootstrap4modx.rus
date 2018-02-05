@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 02 2018 г., 19:47
--- Версия сервера: 5.5.53
--- Версия PHP: 5.5.38
+-- Время создания: Фев 05 2018 г., 09:55
+-- Версия сервера: 5.6.34
+-- Версия PHP: 5.6.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -2666,7 +2666,17 @@ INSERT INTO `modx_manager_log` (`id`, `user`, `occurred`, `action`, `classKey`, 
 (1213, 1, '2018-02-02 19:22:45', 'chunk_update', 'modChunk', '46'),
 (1214, 1, '2018-02-02 19:22:45', 'propertyset_update_from_element', 'modChunk', '46'),
 (1215, 1, '2018-02-02 19:23:14', 'chunk_update', 'modChunk', '46'),
-(1216, 1, '2018-02-02 19:23:14', 'propertyset_update_from_element', 'modChunk', '46');
+(1216, 1, '2018-02-02 19:23:14', 'propertyset_update_from_element', 'modChunk', '46'),
+(1217, 1, '2018-02-05 09:03:14', 'login', 'modContext', 'mgr'),
+(1218, 1, '2018-02-05 09:11:01', 'chunk_update', 'modChunk', '46'),
+(1219, 1, '2018-02-05 09:11:01', 'propertyset_update_from_element', 'modChunk', '46'),
+(1220, 1, '2018-02-05 09:21:52', 'chunk_update', 'modChunk', '36'),
+(1221, 1, '2018-02-05 09:21:52', 'propertyset_update_from_element', 'modChunk', '36'),
+(1222, 1, '2018-02-05 09:22:00', 'chunk_update', 'modChunk', '36'),
+(1223, 1, '2018-02-05 09:22:01', 'propertyset_update_from_element', 'modChunk', '36'),
+(1224, 1, '2018-02-05 09:32:07', 'chunk_update', 'modChunk', '36'),
+(1225, 1, '2018-02-05 09:32:07', 'propertyset_update_from_element', 'modChunk', '36'),
+(1226, 1, '2018-02-05 09:36:52', 'chunk_update', 'modChunk', '36');
 
 -- --------------------------------------------------------
 
@@ -3170,10 +3180,7 @@ CREATE TABLE `modx_session` (
 --
 
 INSERT INTO `modx_session` (`id`, `access`, `data`) VALUES
-('u3k9qvoq2tp5fbj5nokmqoi2r4', 1517311017, 'modx.user.contextTokens|a:0:{}'),
-('t3l8shc126lut6l3nissedom02', 1517583850, 'modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.user.contextTokens|a:0:{}'),
-('o09tfqi2nhphpn2dtcg9k8tlt2', 1517584186, 'modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.mgr.user.token|s:52:\"modx59d3260baf34f9.19499995_15a747e015cf2b2.81922947\";modx.mgr.session.cookie.lifetime|i:604800;modx.mgr.user.config|a:0:{}newResourceTokens|a:1:{i:0;s:23:\"5a747f3960d117.42413195\";}'),
-('8qeci4cg0ek1dduhbloa2pp064', 1517586518, 'modx.user.contextTokens|a:0:{}modx.user.0.resourceGroups|a:1:{s:3:\"web\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:1:{s:4:\"load\";b:1;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}');
+('0mr6tcoiemc58ov3gi52om35d7', 1517813684, 'modx.user.contextTokens|a:0:{}');
 
 -- --------------------------------------------------------
 
@@ -3311,7 +3318,7 @@ INSERT INTO `modx_site_htmlsnippets` (`id`, `source`, `property_preprocess`, `na
 (36, 1, 0, 'Head', '', 0, 22, 0, '<!DOCTYPE html>\n<html class=\"no-js\" lang=\"en\">\n<head>\n  <base href=\"[[++site_url]]\" />\n  <meta charset=\"[[++modx_charset]]\" />\n    <title>[[*longtitle:default=`[[*pagetitle]]`]] - [[++site_url]]</title>\n    <meta name=\"description\" content=\"\">\n    \n    <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta property=\"og:image\" content=\"path/to/image.jpg\">\n    <link rel=\"shortcut icon\" href=\"http://www.chuvyr.ru/favicon.ico\" />\n    <!-- <link rel=\"icon\" type=\"image/png\" href=\"/favicon.png\" />\n    <link rel=\"icon\" type=\"image/gif\" href=\"/favicon.gif\" />\n    <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon-57×57.png\" />\n    <link rel=\"apple-touch-icon-precomposed\" href=\"/apple-touch-icon-57×57-precomposed.png\"/> -->\n    \n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Raleway:400,800\">\n    <link rel=\'stylesheet\' href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\">\n    <!-- <link rel=\"stylesheet\" href=\"[[++assets_url]]templates/Stas/app/css/bootstrap.min.css\"> -->\n    <link rel=\"stylesheet\" href=\"[[++assets_url]]templates/Stas/app/css/styles.min.css\">\n    \n    \n    <!-- Chrome, Firefox OS and Opera -->\n    <meta name=\"theme-color\" content=\"#4285f4\">\n    <!-- Windows Phone -->\n    <meta name=\"msapplication-navbutton-color\" content=\"#4285f4\">\n    <!-- iOS Safari -->\n    <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"#4285f4\">\n</head>\n\n<body>', 0, 'a:1:{s:9:\"bodyClass\";a:7:{s:4:\"name\";s:9:\"bodyClass\";s:4:\"desc\";s:0:\"\";s:4:\"type\";s:9:\"textfield\";s:7:\"options\";a:0:{}s:5:\"value\";s:0:\"\";s:7:\"lexicon\";N;s:4:\"area\";s:0:\"\";}}', 0, ''),
 (38, 0, 0, 'Login', '', 0, 12, 0, '<div class=\"clearfix\"></div>\n<section class=\"main-login\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">[[!Login? &loginTpl=`lgnLoginTpl` &logoutTpl=`lgnLogoutTpl` &errTpl=`lgnErrTpl` &loginResourceId=`1` &logoutResourceId=`1`]]</div>\n        </div>\n    </div>\n</section>', 0, NULL, 0, ''),
 (39, 1, 0, 'Main unreg', '', 0, 22, 0, '', 0, 'a:0:{}', 0, ''),
-(46, 0, 0, 'Navbar', '', 0, 22, 0, '<div class=\"container-fluid\">\n    <nav class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-secondary\">\n        <a class=\"navbar-brand\" href=\"#\">\n    <img src=\"https://getbootstrap.com/assets/brand/bootstrap-solid.svg\" width=\"30\" height=\"30\" alt=\"\">\n  </a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\">\n    <span class=\"navbar-toggler-icon\"></span>\n</button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">Home</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">About</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">Products</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">Contact</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n    <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" data-toggle=\"dropdown\">\n        Products\n    </a>\n    \n    <div class=\"dropdown-menu dropdown-menu-right mt-2\">\n        <a class=\"dropdown-item\" href=\"#\">Product 1</a>\n        <a class=\"dropdown-item\" href=\"#\">Product 2</a>\n        <div class=\"dropdown-divider\"></div>\n        <a class=\"dropdown-item\" href=\"#\">Another Product</a>\n    </div>\n</li>\n            </ul>\n            <form class=\"form-inline my-2 my-lg-0\">\n      <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n      <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>\n    </form>\n        </div>\n    </nav>\n</div>', 0, 'a:0:{}', 0, ''),
+(46, 0, 0, 'Navbar', '', 0, 22, 0, '<div class=\"container-fluid\">\n    <nav class=\"navbar navbar-expand-lg fixed-top navbar-dark bg-primary\">\n        <a class=\"navbar-brand\" href=\"#\">\n    <img src=\"https://getbootstrap.com/assets/brand/bootstrap-solid.svg\" width=\"30\" height=\"30\" alt=\"\">\n  </a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\">\n    <span class=\"navbar-toggler-icon\"></span>\n</button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul class=\"navbar-nav ml-auto\">\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">Home</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">About</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">Products</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link\" href=\"#\">Contact</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n    <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" data-toggle=\"dropdown\">\n        Products\n    </a>\n    \n    <div class=\"dropdown-menu dropdown-menu-right mt-2\">\n        <a class=\"dropdown-item\" href=\"#\">Product 1</a>\n        <a class=\"dropdown-item\" href=\"#\">Product 2</a>\n        <div class=\"dropdown-divider\"></div>\n        <a class=\"dropdown-item\" href=\"#\">Another Product</a>\n    </div>\n</li>\n            </ul>\n            <form class=\"form-inline my-2 my-lg-0\">\n      <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n      <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>\n    </form>\n        </div>\n    </nav>\n</div>', 0, 'a:0:{}', 0, ''),
 (41, 1, 0, 'Main', '', 0, 22, 0, '', 0, 'a:0:{}', 0, ''),
 (42, 1, 0, 'Footer', '', 0, 22, 0, '<footer class=\"page-footer\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col l6 s12\">\n        <h5 class=\"white-text\">Content</h5>\n        <p class=\"grey-text text-lighten-4\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, voluptate, beatae! Tempore inventore possimus est eligendi, ea, quidem quo. Odio repudiandae nulla facilis, vel, incidunt sit veniam beatae commodi quibusdam non! Voluptas animi nesciunt dolor accusantium quos voluptatum tenetur nulla labore exercitationem nihil nemo facilis officia ipsum, reprehenderit. Ex, libero.</p>\n      </div>\n      <div class=\"col l6 offset-12 s12\">\n        <h5 class=\"white-text\">Links</h5>\n        <ul>\n          <li class=\"grey-text text-lighten-3\">link1</li>\n          <li class=\"grey-text text-lighten-3\">link2</li>\n          <li class=\"grey-text text-lighten-3\">link3</li>\n          <li class=\"grey-text text-lighten-3\">link4</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n  <div class=\"footer-copyright\">\n    <div class=\"container\">\n      <div class=\"row\">@copyStanruss\n  <a href=\"#!\" class=\"grey-text text-lighten-3 right\">More links</a></div>\n    </div>\n  </div>\n</footer>', 0, 'a:0:{}', 0, ''),
 (44, 1, 0, 'Scripts', '', 0, 22, 0, '  <script src=\"[[++assets_url]]templates/Stas/app/js/libs.min.js\"></script>\n  <script type=\"text/javascript\" src=\"[[++assets_url]]templates/Stas/app/js/common.js\"></script>\n \n\n', 0, 'a:0:{}', 0, '');
@@ -4565,7 +4572,7 @@ CREATE TABLE `modx_user_attributes` (
 --
 
 INSERT INTO `modx_user_attributes` (`id`, `internalKey`, `fullname`, `email`, `phone`, `mobilephone`, `blocked`, `blockeduntil`, `blockedafter`, `logincount`, `lastlogin`, `thislogin`, `failedlogincount`, `sessionid`, `dob`, `gender`, `address`, `country`, `city`, `state`, `zip`, `fax`, `photo`, `comment`, `website`, `extended`) VALUES
-(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 25, 1517308814, 1517583873, 0, 'o09tfqi2nhphpn2dtcg9k8tlt2', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
+(1, 1, 'Администратор по умолчанию', 'stan19781@gmail.com', '', '', 0, 0, 0, 26, 1517583873, 1517810594, 0, 't6nvspjd6a5cqudp1t2m1vkc47', 0, 0, '', '', '', '', '', '', '', '', '', NULL),
 (2, 2, '', 'stan1978@gmail.com', '', '', 0, 0, 0, 3, 1507027219, 1516255911, 0, '9lkho41cebf6ndm6o7a5ovqgg0', 0, 1, '', '', 'Тверь', '', '19000', '', '', '', '', '[]');
 
 -- --------------------------------------------------------
@@ -5702,7 +5709,7 @@ ALTER TABLE `modx_lexicon_entries`
 -- AUTO_INCREMENT для таблицы `modx_manager_log`
 --
 ALTER TABLE `modx_manager_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1217;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1227;
 --
 -- AUTO_INCREMENT для таблицы `modx_media_sources`
 --
