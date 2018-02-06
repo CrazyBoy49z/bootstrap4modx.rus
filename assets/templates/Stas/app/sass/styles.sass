@@ -6,5 +6,11 @@
 @import "vars"
 @import "media"
 .navbar-nav
-	li.active a
-		color: #666
+	li
+		a
+			&:hover
+				text-decoration: none
+				color: #fd7e14
+		&.active a
+			color: #fd7e14
+
